@@ -7,7 +7,7 @@ from rest_framework import status
 
 # 2. Importaciones de Firebase Admin SDK y Python
 from firebase_admin import db
-import datetime
+from datetime import datetime
 
 class LandingAPI(APIView):
     # 3. Atributos solicitados
